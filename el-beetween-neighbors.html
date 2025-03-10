@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>el-beetween-neighbors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a href="./menu.html"> <<< Вийти в головне меню</a>
+
+    <h1>Знайти член прогресії за двома сусідами</h1>
+    <div>
+        <h2>Попередній член (a<sub>n-1</sub>)</h2>
+        <input type="number" id="prev">
+    </div>
+    <div>
+        <h2>Наступний член (a<sub>n+1</sub>)</h2>
+        <input type="number" id="next">
+    </div>
+    <button onclick="caculate('el-beetween-neighbors')">Обчислити</button>
+    <p id="output"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>

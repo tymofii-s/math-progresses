@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formula-an-el</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <a href="./menu.html"> <<< Вийти в головне меню</a>
+
+    <h1>Формула n-го члена</h1>
+    <div>
+        <h2>Перший член (a<sub>1</sub>)</h2>
+        <input type="number" id="first">
+    </div>
+    <div>
+        <h2>Різниця (d)</h2>
+        <input type="number" id="difference">
+    </div>
+    <div>
+        <h2>Кількість членів послідовності (n)</h2>
+        <input type="number" id="n">
+    </div>
+
+    <button onclick="caculate('formula-an-el')">Обчислити</button>
+    <p id="output"></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>

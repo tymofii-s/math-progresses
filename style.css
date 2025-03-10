@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    max-width: 450px;
+    width: 90%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2, input {
+    margin: 10px;
+}
+
+div {
+    margin-bottom: 20px;
+    width: 300px;
+
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+#output {
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
